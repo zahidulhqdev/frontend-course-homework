@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*common css*/
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/*navbar css*/
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+  font-family: "Jost", sans-serif;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 48px;
+  
+
+}
+
+.navbar ul li a{
+  color: #00413D;
+  font-size: 18px;
+  transition: 0.3s linear;
+}
+
+.navbar ul li a:hover{
+  color: #E5745D;
+  
+  
+}
+.btn{
+  color: white;
+  background-color: #E5745D;
+  font-size: 18px;
+  padding: 21px 39px;
+  border: 1px solid white;
+  outline: #E5745D 5px solid;
+  cursor: pointer;
+  
+
+}
+
+
+
+#banner{
+  background-image: url("imeges/b1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 194px 0px 248px 0px;
+  position: relative;
+}
+.banner-content{
+  width: 834px;
+  color: white;
+
+}
+
+.banner-content h1{
+  font-size: 100px;
+  font-family: "Vollkorn", serif;
+  font-weight: bold;
+  line-height: 110px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.banner-content h1 span{
+  display: block;
+}
+.banner-content p{
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 14px 0px 50px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-content p span{
+  display: block;
+  
+}
+#banner img{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
