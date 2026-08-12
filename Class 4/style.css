@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  background: #756060;
+
+}
+
+.flag1,
+.flag2,
+.flag3,
+.flag4,
+.flag5{
+   position:relative;
+    width:300px;
+    height:350px;
+    display:inline-block;
+}
+
+.pole{
+  width: 10px;
+  height: 250px;
+  background: black;
+  position: absolute;
+  margin: 20px 20px 20px 20px;
+}
+
+.bangladesh{
+    width: 180px;
+    height: 100px;
+    background: green;
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+
+/*japan Flag*/
+
+.japan{
+    width: 180px;
+    height: 100px;
+    background: rgb(236, 240, 236);
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+
+
+/*Belgium Flag*/
+
+
+  .belgium{
+    width:180px;
+    height:100px;
+    position:absolute;
+    left:30px;
+    top:20px;
+    display:flex;
+  }
+
+  .black{
+    width: 60px;
+    height: 100px;
+    background: black;
+  }
+
+.yellow{
+  width: 60px;
+  height: 100px;
+  background: yellow;
+}
+
+.red{
+  width: 60px;
+  height: 100px;
+  background: red;
+}
+
+/*italy Flag*/
+
+.italy{
+    width: 180px;
+    height: 100px;
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    display: flex;
+}
+
+
+.green{
+    width: 60px;
+    height: 100px;
+    background: green;
+}
+
+
+.white{
+    width: 60px;
+    height: 100px;
+    background: white;
+}
+
+
+.italy-red{
+    width: 60px;
+    height: 100px;
+    background: red;
+}
+
+
+/*Germany Flag*/
+
+.germany{
+    width: 180px;
+    height: 100px;
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.black-g{
+    width: 180px;
+    height: 33.33px;
+    background: black;
+}
+
+
+.red-g{
+    width: 180px;
+    height: 33.33px;
+    background: red;
+}
+
+
+.gold-g{
+    width: 180px;
+    height: 33.33px;
+    background: gold;
+}
+
+
+
+
+.country-name{
+    color:rgba(149, 250, 169, 0.911);
+    font-size:30px;
+    
+
+    position:absolute;
+    top:260px;
+    left:70px;
+
+    margin:0;
+}
