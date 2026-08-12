@@ -1,0 +1,120 @@
+/* .up{
+    width: 1800px;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
+
+.one{
+    width: 325px;
+    height: 30px;
+    
+    
+}
+
+.two{
+    width: 100px;
+    height: 30px;
+
+}
+
+.three{
+    width: 100px;
+    height: 30px;
+
+}
+
+.four{
+    width: 100px;
+    height: 30px;
+}
+
+.five{
+    width: 100px;
+    height: 30px;
+
+}
+
+.six{
+    width: 100px;
+    height: 30px;
+
+}
+.seven{
+    width: 100px;
+    height: 30px;
+
+}
+
+.head{
+    color: rgb(7, 112, 126);
+    font-weight: bold;
+    fr
+
+}
+
+.leftside{
+    width: 350px;
+    height: 500px;
+    margin-left: 100px;
+    
+}
+
+.h1{
+    font-size:xx-large;
+}
+.leftbtn{
+  background-color: red;
+  border: none;
+  color: white;
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+} */
+
+
+ .chess{
+  width: 644px;
+  height: 644px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  box-sizing: border-box;
+ 
+  
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(10, 0, 0);
+  box-sizing: border-box;
+  font-size: 55px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.black{
+  background-color:rgb(70, 58, 58);
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: seagreen;
+
+}
+
+.type{
+    display: flex;
+}
